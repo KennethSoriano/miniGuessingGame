@@ -1,11 +1,11 @@
-import { View, TextInput} from 'react-native';
+import { View, Text} from 'react-native';
 
-function PrimaryButton({children}) {
+function PrimaryButton({ children }) {
     return (
         <View>
             <Text>{children}</Text>
         </View>
-    )
+    );
 }
 
 export default PrimaryButton;
