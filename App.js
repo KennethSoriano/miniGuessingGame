@@ -1,9 +1,9 @@
 import {useState} from 'react';
 import { LinearGradient } from 'expo-linear-gradient'
-import { StyleSheet, ImageBackground, SafeAreaView,Text } from 'react-native';
+import { StyleSheet, ImageBackground, SafeAreaView } from 'react-native';
 
 import StartGameScreen from './screens/StartGameScreen';
-import GameOverScreen from './screens/GameoVerScreen';
+import GameOverScreen from './screens/GameOverScreen';
 import GameScreen from './screens/GameScreen';
 import Colors from './constants/colors';
 
@@ -29,7 +29,7 @@ export default function App() {
   }
 
   if (gameIsOver && userNumber) {
-    screen = <gameOverScreen />;
+    screen = <GameOverScreen />;
   }
 
   
