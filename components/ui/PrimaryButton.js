@@ -4,7 +4,6 @@ import Colors from '../../constants/colors';
 
 function PrimaryButton({ children, onPress }) {
 
-
     return (
         <View style={styles.buttonOuterContainer}>
             <Pressable 
