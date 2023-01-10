@@ -3,6 +3,7 @@
     "name": "miniGuessingGame",
     "slug": "miniGuessingGame",
     "version": "1.0.0",
+    "orientation": "default",
     "assetBundlePatterns": [
       "**/*"
     ]
